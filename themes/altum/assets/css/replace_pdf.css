@@ -1,0 +1,29 @@
+.replacelabel {
+    width: 120px;
+    border: 2px dashed grey;
+    border-radius: 5px;
+    display: block;
+    padding: 5px;
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+}   
+.replacelabel i {
+    display: block;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.replacelabel i, .replacelabel .title {
+    color: grey;
+    transition: 200ms color;
+}
+.replacelabel:hover {
+    border: 2px solid #1665c4;
+}
+.replacelabel:hover i, .replacelabel:hover .title {
+    color: #1665c4;
+}
+.FileUpload2 {
+    display:none;
+}

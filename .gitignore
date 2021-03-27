@@ -1,0 +1,13 @@
+.env
+.idea
+debug.log
+uploads/cache
+uploads
+dbs
+
+
+.htaccess
+
+
+# vendor/*
+# !vendor/Google.php
